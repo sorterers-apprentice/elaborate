@@ -1,0 +1,1806 @@
+MATCH (b0:Book { title: "tmux: Productive Mouse-Free Development" })
+
+MATCH (p0:Person { name: "Brian P. Hogan" })
+
+CREATE (b0)-[:AUTHOR]->(p0)
+
+MATCH (b1:Book { title: "Remote Pairing: Collaborative Tools for Distributed Development" })
+
+MATCH (p1:Person { name: "Joe Kutner" })
+
+CREATE (b1)-[:AUTHOR]->(p1)
+
+MATCH (b2:Book { title: "Build Awesome Command-Line Applications in Ruby: Control Your Computer, Simplify Your Life" })
+
+MATCH (p2:Person { name: "David B. Copeland" })
+
+CREATE (b2)-[:AUTHOR]->(p2)
+
+MATCH (b3:Book { title: "Seven Web Frameworks in Seven Weeks" })
+
+MATCH (p3:Person { name: "Jack Moffitt" })
+
+CREATE (b3)-[:AUTHOR]->(p3)
+
+MATCH (b4:Book { title: "Exercises for Programmers: 57 Challenges to Develop Your Coding Skills" })
+
+MATCH (p4:Person { name: "Brian P. Hogan" })
+
+CREATE (b4)-[:AUTHOR]->(p4)
+
+MATCH (b5:Book { title: "Mazes for Programmers: Code Your Own Twisty Little Passages" })
+
+MATCH (p5:Person { name: "Jamis Buck" })
+
+CREATE (b5)-[:AUTHOR]->(p5)
+
+MATCH (b6:Book { title: "Programming Elixir: Functional |> Concurrent |> Pragmatic |> Fun" })
+
+MATCH (p6:Person { name: "Dave Thomas" })
+
+CREATE (b6)-[:AUTHOR]->(p6)
+
+MATCH (b7:Book { title: "Seven More Languages in Seven Weeks: Languages That Are Shaping the Future" })
+
+MATCH (p7:Person { name: "Bruce A. Tate" })
+
+CREATE (b7)-[:AUTHOR]->(p7)
+
+MATCH (b8:Book { title: "Learn Game Programming with Ruby: Bring Your Ideas to Life with Gosu" })
+
+MATCH (p8:Person { name: "Mark Sobkowicz" })
+
+CREATE (b8)-[:AUTHOR]->(p8)
+
+MATCH (b9:Book { title: "Waking Up: A Guide to Spirituality Without Religion" })
+
+MATCH (p9:Person { name: "Sam Harris" })
+
+CREATE (b9)-[:AUTHOR]->(p9)
+
+MATCH (b10:Book { title: "The Beginning of Infinity: Explanations That Transform the World" })
+
+MATCH (p10:Person { name: "David Deutsch" })
+
+CREATE (b10)-[:AUTHOR]->(p10)
+
+MATCH (b11:Book { title: "How Equal Temperament Ruined Harmony (And Why You Should Care)" })
+
+MATCH (p11:Person { name: "Ross W. Duffin" })
+
+CREATE (b11)-[:AUTHOR]->(p11)
+
+MATCH (b12:Book { title: "The Complete Sherlock Holmes 1" })
+
+MATCH (p12:Person { name: "Arthur Conan Doyle" })
+
+CREATE (b12)-[:AUTHOR]->(p12)
+
+MATCH (b13:Book { title: "The Complete Sherlock Holmes, Vol 2" })
+
+MATCH (p13:Person { name: "Arthur Conan Doyle" })
+
+CREATE (b13)-[:AUTHOR]->(p13)
+
+MATCH (b14:Book { title: "H.P. Lovecraft:  The Complete Fiction" })
+
+MATCH (p14:Person { name: "H.P. Lovecraft" })
+
+CREATE (b14)-[:AUTHOR]->(p14)
+
+MATCH (b15:Book { title: "The Chronicles of Narnia (Chronicles of Narnia, #1-7)" })
+
+MATCH (p15:Person { name: "C.S. Lewis" })
+
+CREATE (b15)-[:AUTHOR]->(p15)
+
+MATCH (b16:Book { title: "The Princess Bride " })
+
+MATCH (p16:Person { name: "William Goldman" })
+
+CREATE (b16)-[:AUTHOR]->(p16)
+
+MATCH (b17:Book { title: "The Da Vinci Code (Robert Langdon, #2)" })
+
+MATCH (p17:Person { name: "Dan Brown" })
+
+CREATE (b17)-[:AUTHOR]->(p17)
+
+MATCH (b18:Book { title: "Gulliver's Travels" })
+
+MATCH (p18:Person { name: "Jonathan Swift" })
+
+CREATE (b18)-[:AUTHOR]->(p18)
+
+MATCH (b19:Book { title: "The Arabian Nights" })
+
+MATCH (p19:Person { name: "Anonymous" })
+
+CREATE (b19)-[:AUTHOR]->(p19)
+
+MATCH (b20:Book { title: "The Complete Grimm's Fairy Tales" })
+
+MATCH (p20:Person { name: "Jacob Grimm" })
+
+CREATE (b20)-[:AUTHOR]->(p20)
+
+MATCH (b21:Book { title: "Harry Potter and the Goblet of Fire (Harry Potter, #4)" })
+
+MATCH (p21:Person { name: "J.K. Rowling" })
+
+CREATE (b21)-[:AUTHOR]->(p21)
+
+MATCH (b22:Book { title: "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)" })
+
+MATCH (p22:Person { name: "J.K. Rowling" })
+
+CREATE (b22)-[:AUTHOR]->(p22)
+
+MATCH (b23:Book { title: "Harry Potter and the Chamber of Secrets (Harry Potter, #2)" })
+
+MATCH (p23:Person { name: "J.K. Rowling" })
+
+CREATE (b23)-[:AUTHOR]->(p23)
+
+MATCH (b24:Book { title: "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)" })
+
+MATCH (p24:Person { name: "J.K. Rowling" })
+
+CREATE (b24)-[:AUTHOR]->(p24)
+
+MATCH (b25:Book { title: "Stranger in a Strange Land" })
+
+MATCH (p25:Person { name: "Robert A. Heinlein" })
+
+CREATE (b25)-[:AUTHOR]->(p25)
+
+MATCH (b26:Book { title: "Dune" })
+
+MATCH (p26:Person { name: "Frank Herbert" })
+
+CREATE (b26)-[:AUTHOR]->(p26)
+
+MATCH (b27:Book { title: "Caliban's War (Expanse, #2)" })
+
+MATCH (p27:Person { name: "James S.A. Corey" })
+
+CREATE (b27)-[:AUTHOR]->(p27)
+
+MATCH (b28:Book { title: "Leviathan Wakes (Expanse, #1)" })
+
+MATCH (p28:Person { name: "James S.A. Corey" })
+
+CREATE (b28)-[:AUTHOR]->(p28)
+
+MATCH (b29:Book { title: "The Left Hand of Darkness" })
+
+MATCH (p29:Person { name: "Ursula K. Le Guin" })
+
+CREATE (b29)-[:AUTHOR]->(p29)
+
+MATCH (b30:Book { title: "Xenocide (Ender's Saga, #3)" })
+
+MATCH (p30:Person { name: "Orson Scott Card" })
+
+CREATE (b30)-[:AUTHOR]->(p30)
+
+MATCH (b31:Book { title: "Children of the Mind (Ender's Saga, #4)" })
+
+MATCH (p31:Person { name: "Orson Scott Card" })
+
+CREATE (b31)-[:AUTHOR]->(p31)
+
+MATCH (b32:Book { title: "Speaker for the Dead (Ender's Saga, #2)" })
+
+MATCH (p32:Person { name: "Orson Scott Card" })
+
+CREATE (b32)-[:AUTHOR]->(p32)
+
+MATCH (b33:Book { title: "Shadow of the Giant (Ender's Shadow, #4)" })
+
+MATCH (p33:Person { name: "Orson Scott Card" })
+
+CREATE (b33)-[:AUTHOR]->(p33)
+
+MATCH (b34:Book { title: "Shadow Puppets (Ender's Shadow, #3)" })
+
+MATCH (p34:Person { name: "Orson Scott Card" })
+
+CREATE (b34)-[:AUTHOR]->(p34)
+
+MATCH (b35:Book { title: "Shadow of the Hegemon (Ender's Shadow, #2)" })
+
+MATCH (p35:Person { name: "Orson Scott Card" })
+
+CREATE (b35)-[:AUTHOR]->(p35)
+
+MATCH (b36:Book { title: "Ender's Shadow (Ender's Shadow, #1)" })
+
+MATCH (p36:Person { name: "Orson Scott Card" })
+
+CREATE (b36)-[:AUTHOR]->(p36)
+
+MATCH (b37:Book { title: "Ender's Game (Ender's Saga, #1)" })
+
+MATCH (p37:Person { name: "Orson Scott Card" })
+
+CREATE (b37)-[:AUTHOR]->(p37)
+
+MATCH (b38:Book { title: "Earth Afire (The First Formic War, #2)" })
+
+MATCH (p38:Person { name: "Orson Scott Card" })
+
+CREATE (b38)-[:AUTHOR]->(p38)
+
+MATCH (b39:Book { title: "Earth Unaware (The First Formic War, #1)" })
+
+MATCH (p39:Person { name: "Orson Scott Card" })
+
+CREATE (b39)-[:AUTHOR]->(p39)
+
+MATCH (b40:Book { title: "The Tin Drum" })
+
+MATCH (p40:Person { name: "Günter Grass" })
+
+CREATE (b40)-[:AUTHOR]->(p40)
+
+MATCH (b41:Book { title: "Till We Have Faces" })
+
+MATCH (p41:Person { name: "C.S. Lewis" })
+
+CREATE (b41)-[:AUTHOR]->(p41)
+
+MATCH (b42:Book { title: "Moby Dick 1" })
+
+MATCH (p42:Person { name: "Herman Melville" })
+
+CREATE (b42)-[:AUTHOR]->(p42)
+
+MATCH (b43:Book { title: "When You Are Engulfed in Flames" })
+
+MATCH (p43:Person { name: "David Sedaris" })
+
+CREATE (b43)-[:AUTHOR]->(p43)
+
+MATCH (b44:Book { title: "The Tale of Genji" })
+
+MATCH (p44:Person { name: "Murasaki Shikibu" })
+
+CREATE (b44)-[:AUTHOR]->(p44)
+
+MATCH (b45:Book { title: "House of Leaves" })
+
+MATCH (p45:Person { name: "Mark Z. Danielewski" })
+
+CREATE (b45)-[:AUTHOR]->(p45)
+
+MATCH (b46:Book { title: "The Pale King" })
+
+MATCH (p46:Person { name: "David Foster Wallace" })
+
+CREATE (b46)-[:AUTHOR]->(p46)
+
+MATCH (b47:Book { title: "Infinite Jest" })
+
+MATCH (p47:Person { name: "David Foster Wallace" })
+
+CREATE (b47)-[:AUTHOR]->(p47)
+
+MATCH (b48:Book { title: "The Road" })
+
+MATCH (p48:Person { name: "Cormac McCarthy" })
+
+CREATE (b48)-[:AUTHOR]->(p48)
+
+MATCH (b49:Book { title: "Candide" })
+
+MATCH (p49:Person { name: "Voltaire" })
+
+CREATE (b49)-[:AUTHOR]->(p49)
+
+MATCH (b50:Book { title: "Alice's Adventures in Wonderland" })
+
+MATCH (p50:Person { name: "Carroll Lewis Tenniel John" })
+
+CREATE (b50)-[:AUTHOR]->(p50)
+
+MATCH (b51:Book { title: "The Prince and the Pauper" })
+
+MATCH (p51:Person { name: "Mark Twain" })
+
+CREATE (b51)-[:AUTHOR]->(p51)
+
+MATCH (b52:Book { title: "A Game of Thrones (A Song of Ice and Fire, #1)" })
+
+MATCH (p52:Person { name: "George R.R. Martin" })
+
+CREATE (b52)-[:AUTHOR]->(p52)
+
+MATCH (b53:Book { title: "Heart of Darkness and The Secret Sharer" })
+
+MATCH (p53:Person { name: "Joseph Conrad" })
+
+CREATE (b53)-[:AUTHOR]->(p53)
+
+MATCH (b54:Book { title: "The Aeneid" })
+
+MATCH (p54:Person { name: "Virgil" })
+
+CREATE (b54)-[:AUTHOR]->(p54)
+
+MATCH (b55:Book { title: "Ready Player One" })
+
+MATCH (p55:Person { name: "Ernest Cline" })
+
+CREATE (b55)-[:AUTHOR]->(p55)
+
+MATCH (b56:Book { title: "Metamorphoses" })
+
+MATCH (p56:Person { name: "Ovid" })
+
+CREATE (b56)-[:AUTHOR]->(p56)
+
+MATCH (b57:Book { title: "The Illiad of Homer" })
+
+MATCH (p57:Person { name: "Homer" })
+
+CREATE (b57)-[:AUTHOR]->(p57)
+
+MATCH (b58:Book { title: "The Odyssey" })
+
+MATCH (p58:Person { name: "Homer" })
+
+CREATE (b58)-[:AUTHOR]->(p58)
+
+MATCH (b59:Book { title: "Palm Sunday: An Autobiographical Collage" })
+
+MATCH (p59:Person { name: "Kurt Vonnegut" })
+
+CREATE (b59)-[:AUTHOR]->(p59)
+
+MATCH (b60:Book { title: "Look at the Birdie: Unpublished Short Fiction" })
+
+MATCH (p60:Person { name: "Kurt Vonnegut" })
+
+CREATE (b60)-[:AUTHOR]->(p60)
+
+MATCH (b61:Book { title: "Bagombo Snuff Box" })
+
+MATCH (p61:Person { name: "Kurt Vonnegut" })
+
+CREATE (b61)-[:AUTHOR]->(p61)
+
+MATCH (b62:Book { title: "Armageddon in Retrospect" })
+
+MATCH (p62:Person { name: "Kurt Vonnegut" })
+
+CREATE (b62)-[:AUTHOR]->(p62)
+
+MATCH (b63:Book { title: "Hocus Pocus" })
+
+MATCH (p63:Person { name: "Kurt Vonnegut" })
+
+CREATE (b63)-[:AUTHOR]->(p63)
+
+MATCH (b64:Book { title: "Timequake" })
+
+MATCH (p64:Person { name: "Kurt Vonnegut" })
+
+CREATE (b64)-[:AUTHOR]->(p64)
+
+MATCH (b65:Book { title: "Bluebeard" })
+
+MATCH (p65:Person { name: "Kurt Vonnegut" })
+
+CREATE (b65)-[:AUTHOR]->(p65)
+
+MATCH (b66:Book { title: "Galápagos" })
+
+MATCH (p66:Person { name: "Kurt Vonnegut" })
+
+CREATE (b66)-[:AUTHOR]->(p66)
+
+MATCH (b67:Book { title: "Mother Night" })
+
+MATCH (p67:Person { name: "Kurt Vonnegut" })
+
+CREATE (b67)-[:AUTHOR]->(p67)
+
+MATCH (b68:Book { title: "The Sirens of Titan" })
+
+MATCH (p68:Person { name: "Kurt Vonnegut" })
+
+CREATE (b68)-[:AUTHOR]->(p68)
+
+MATCH (b69:Book { title: "Breakfast of Champions" })
+
+MATCH (p69:Person { name: "Kurt Vonnegut" })
+
+CREATE (b69)-[:AUTHOR]->(p69)
+
+MATCH (b70:Book { title: "Cat's Cradle" })
+
+MATCH (p70:Person { name: "Kurt Vonnegut" })
+
+CREATE (b70)-[:AUTHOR]->(p70)
+
+MATCH (b71:Book { title: "Slaughterhouse-Five" })
+
+MATCH (p71:Person { name: "Kurt Vonnegut" })
+
+CREATE (b71)-[:AUTHOR]->(p71)
+
+MATCH (b72:Book { title: "Eureka Man: The Life and Legacy of Archimedes" })
+
+MATCH (p72:Person { name: "Alan W. Hirshfeld" })
+
+CREATE (b72)-[:AUTHOR]->(p72)
+
+MATCH (b73:Book { title: "Einstein: His Life and Universe" })
+
+MATCH (p73:Person { name: "Walter Isaacson" })
+
+CREATE (b73)-[:AUTHOR]->(p73)
+
+MATCH (b74:Book { title: "Genius: The Life and Science of Richard Feynman" })
+
+MATCH (p74:Person { name: "James Gleick" })
+
+CREATE (b74)-[:AUTHOR]->(p74)
+
+MATCH (b75:Book { title: "Isaac Newton" })
+
+MATCH (p75:Person { name: "James Gleick" })
+
+CREATE (b75)-[:AUTHOR]->(p75)
+
+MATCH (b76:Book { title: "Carl Sagan: A Life" })
+
+MATCH (p76:Person { name: "Keay Davidson" })
+
+CREATE (b76)-[:AUTHOR]->(p76)
+
+MATCH (b77:Book { title: "Wizard: The Life and Times of Nikola Tesla: Biography of a Genius" })
+
+MATCH (p77:Person { name: "Marc Seifer" })
+
+CREATE (b77)-[:AUTHOR]->(p77)
+
+MATCH (b78:Book { title: "The Man Who Knew Infinity: A Life of the Genius Ramanujan" })
+
+MATCH (p78:Person { name: "Robert Kanigel" })
+
+CREATE (b78)-[:AUTHOR]->(p78)
+
+MATCH (b79:Book { title: "The Strangest Man: The Hidden Life of Paul Dirac, Mystic of the Atom" })
+
+MATCH (p79:Person { name: "Graham Farmelo" })
+
+CREATE (b79)-[:AUTHOR]->(p79)
+
+MATCH (b80:Book { title: "And So it Goes: Kurt Vonnegut: A Life" })
+
+MATCH (p80:Person { name: "Charles J. Shields" })
+
+CREATE (b80)-[:AUTHOR]->(p80)
+
+MATCH (b81:Book { title: "The Fractalist: Memoir of a Scientific Maverick" })
+
+MATCH (p81:Person { name: "Benoît B. Mandelbrot" })
+
+CREATE (b81)-[:AUTHOR]->(p81)
+
+MATCH (b82:Book { title: "Buckminster Fuller's Universe: An Appreciation" })
+
+MATCH (p82:Person { name: "Lloyd Steven Sieden" })
+
+CREATE (b82)-[:AUTHOR]->(p82)
+
+MATCH (b83:Book { title: "Strange Beauty: Murray Gell-Mann and the Revolution in Twentieth-Century Physics" })
+
+MATCH (p83:Person { name: "George Johnson" })
+
+CREATE (b83)-[:AUTHOR]->(p83)
+
+MATCH (b84:Book { title: "Something Incredibly Wonderful Happens: Frank Oppenheimer and the world he made up" })
+
+MATCH (p84:Person { name: "K.C. Cole" })
+
+CREATE (b84)-[:AUTHOR]->(p84)
+
+MATCH (b85:Book { title: "A Beautiful Mind: A Biography of John Forbes Nash, Jr., Winner of the Nobel Prize for Economics, 1994" })
+
+MATCH (p85:Person { name: "Sylvia Nasar" })
+
+CREATE (b85)-[:AUTHOR]->(p85)
+
+MATCH (b86:Book { title: "Sergei Prokofiev: A Biography" })
+
+MATCH (p86:Person { name: "Harlow Robinson" })
+
+CREATE (b86)-[:AUTHOR]->(p86)
+
+MATCH (b87:Book { title: "Glenn Gould: The Ecstasy and Tragedy of Genius" })
+
+MATCH (p87:Person { name: "Peter Ostwald" })
+
+CREATE (b87)-[:AUTHOR]->(p87)
+
+MATCH (b88:Book { title: "The Dobsonian Telescope: A Practical Manual for Building Large Aperture Telescopes" })
+
+MATCH (p88:Person { name: "David Kriege" })
+
+CREATE (b88)-[:AUTHOR]->(p88)
+
+MATCH (b89:Book { title: "Van Gogh: The Life" })
+
+MATCH (p89:Person { name: "Steven Naifeh" })
+
+CREATE (b89)-[:AUTHOR]->(p89)
+
+MATCH (b90:Book { title: "To a Violent Grave: An Oral Biography of Jackson Pollock" })
+
+MATCH (p90:Person { name: "Jeffrey Potter" })
+
+CREATE (b90)-[:AUTHOR]->(p90)
+
+MATCH (b91:Book { title: "Music Sounded Out" })
+
+MATCH (p91:Person { name: "Alfred Brendel" })
+
+CREATE (b91)-[:AUTHOR]->(p91)
+
+MATCH (b92:Book { title: "The Gulag Archipelago 1918-1956" })
+
+MATCH (p92:Person { name: "Aleksandr Solzhenitsyn" })
+
+CREATE (b92)-[:AUTHOR]->(p92)
+
+MATCH (b93:Book { title: "On Russian Music" })
+
+MATCH (p93:Person { name: "Richard Taruskin" })
+
+CREATE (b93)-[:AUTHOR]->(p93)
+
+MATCH (b94:Book { title: "The Study of Fugue" })
+
+MATCH (p94:Person { name: "Alfred Mann" })
+
+CREATE (b94)-[:AUTHOR]->(p94)
+
+MATCH (b95:Book { title: "This Is Your Brain on Music: The Science of a Human Obsession" })
+
+MATCH (p95:Person { name: "Daniel J. Levitin" })
+
+CREATE (b95)-[:AUTHOR]->(p95)
+
+MATCH (b96:Book { title: "The World in Six Songs: How the Musical Brain Created Human Nature" })
+
+MATCH (p96:Person { name: "Daniel J. Levitin" })
+
+CREATE (b96)-[:AUTHOR]->(p96)
+
+MATCH (b97:Book { title: "The Bach Reader: A Life of Johann Sebastian Bach in Letters and Documents" })
+
+MATCH (p97:Person { name: "Hans T. David" })
+
+CREATE (b97)-[:AUTHOR]->(p97)
+
+MATCH (b98:Book { title: "Mythology: Timeless Tales of Gods and Heroes" })
+
+MATCH (p98:Person { name: "Edith Hamilton" })
+
+CREATE (b98)-[:AUTHOR]->(p98)
+
+MATCH (b99:Book { title: "Why Zebras Don't Get Ulcers" })
+
+MATCH (p99:Person { name: "Robert M. Sapolsky" })
+
+CREATE (b99)-[:AUTHOR]->(p99)
+
+MATCH (b100:Book { title: "The Blind Watchmaker: Why the Evidence of Evolution Reveals a Universe Without Design" })
+
+MATCH (p100:Person { name: "Richard Dawkins" })
+
+CREATE (b100)-[:AUTHOR]->(p100)
+
+MATCH (b101:Book { title: "The Greatest Show on Earth: The Evidence for Evolution" })
+
+MATCH (p101:Person { name: "Richard Dawkins" })
+
+CREATE (b101)-[:AUTHOR]->(p101)
+
+MATCH (b102:Book { title: "The Ancestor's Tale: A Pilgrimage to the Dawn of Evolution" })
+
+MATCH (p102:Person { name: "Richard Dawkins" })
+
+CREATE (b102)-[:AUTHOR]->(p102)
+
+MATCH (b103:Book { title: "The Origin of Species" })
+
+MATCH (p103:Person { name: "Charles Darwin" })
+
+CREATE (b103)-[:AUTHOR]->(p103)
+
+MATCH (b104:Book { title: "How to Build a Dinosaur: Extinction Doesn't Have to Be Forever" })
+
+MATCH (p104:Person { name: "Jack Horner" })
+
+CREATE (b104)-[:AUTHOR]->(p104)
+
+MATCH (b105:Book { title: "AI: The Tumultuous History of the Search for Artificial Intelligence" })
+
+MATCH (p105:Person { name: "Daniel Crevier" })
+
+CREATE (b105)-[:AUTHOR]->(p105)
+
+MATCH (b106:Book { title: "The Existential Pleasures of Engineering" })
+
+MATCH (p106:Person { name: "Samuel C. Florman" })
+
+CREATE (b106)-[:AUTHOR]->(p106)
+
+MATCH (b107:Book { title: "Fingerprints of the Gods: The Evidence of Earth's Lost Civilization" })
+
+MATCH (p107:Person { name: "Graham Hancock" })
+
+CREATE (b107)-[:AUTHOR]->(p107)
+
+MATCH (b108:Book { title: "Maps of Meaning: The Architecture of Belief" })
+
+MATCH (p108:Person { name: "Jordan B. Peterson" })
+
+CREATE (b108)-[:AUTHOR]->(p108)
+
+MATCH (b109:Book { title: "The Moral Landscape: How Science Can Determine Human Values" })
+
+MATCH (p109:Person { name: "Sam Harris" })
+
+CREATE (b109)-[:AUTHOR]->(p109)
+
+MATCH (b110:Book { title: "The Quark and the Jaguar: Adventures in the Simple and the Complex" })
+
+MATCH (p110:Person { name: "Murray Gell-Mann" })
+
+CREATE (b110)-[:AUTHOR]->(p110)
+
+MATCH (b111:Book { title: "The Omnivore's Dilemma: A Natural History of Four Meals" })
+
+MATCH (p111:Person { name: "Michael Pollan" })
+
+CREATE (b111)-[:AUTHOR]->(p111)
+
+MATCH (b112:Book { title: "Nothing to Envy: Ordinary Lives in North Korea" })
+
+MATCH (p112:Person { name: "Barbara Demick" })
+
+CREATE (b112)-[:AUTHOR]->(p112)
+
+MATCH (b113:Book { title: "A Crack in the Edge of the World" })
+
+MATCH (p113:Person { name: "Simon Winchester" })
+
+CREATE (b113)-[:AUTHOR]->(p113)
+
+MATCH (b114:Book { title: "Guns, Germs, and Steel: The Fates of Human Societies" })
+
+MATCH (p114:Person { name: "Jared Diamond" })
+
+CREATE (b114)-[:AUTHOR]->(p114)
+
+MATCH (b115:Book { title: "Auschwitz" })
+
+MATCH (p115:Person { name: "Laurence Rees" })
+
+CREATE (b115)-[:AUTHOR]->(p115)
+
+MATCH (b116:Book { title: "A History of Mathematics" })
+
+MATCH (p116:Person { name: "Carl B. Boyer" })
+
+CREATE (b116)-[:AUTHOR]->(p116)
+
+MATCH (b117:Book { title: "A History of Western Philosophy" })
+
+MATCH (p117:Person { name: "Bertrand Russell" })
+
+CREATE (b117)-[:AUTHOR]->(p117)
+
+MATCH (b118:Book { title: "Collapse: How Societies Choose to Fail or Succeed" })
+
+MATCH (p118:Person { name: "Jared Diamond" })
+
+CREATE (b118)-[:AUTHOR]->(p118)
+
+MATCH (b119:Book { title: "Brain Wars: The Scientific Battle Over the Existence of the Mind and the Proof That Will Change the Way We Live Our Lives" })
+
+MATCH (p119:Person { name: "Mario Beauregard" })
+
+CREATE (b119)-[:AUTHOR]->(p119)
+
+MATCH (b120:Book { title: "The Man Who Mistook His Wife for a Hat and Other Clinical Tales" })
+
+MATCH (p120:Person { name: "Oliver Sacks" })
+
+CREATE (b120)-[:AUTHOR]->(p120)
+
+MATCH (b121:Book { title: "What to Think About Machines That Think: Today's Leading Thinkers on the Age of Machine Intelligence" })
+
+MATCH (p121:Person { name: "John Brockman" })
+
+CREATE (b121)-[:AUTHOR]->(p121)
+
+MATCH (b122:Book { title: "This Is Water: Some Thoughts, Delivered on a Significant Occasion, about Living a Compassionate Life" })
+
+MATCH (p122:Person { name: "David Foster Wallace" })
+
+CREATE (b122)-[:AUTHOR]->(p122)
+
+MATCH (b123:Book { title: "Lying" })
+
+MATCH (p123:Person { name: "Sam Harris" })
+
+CREATE (b123)-[:AUTHOR]->(p123)
+
+MATCH (b124:Book { title: "God: The Failed Hypothesis: How Science Shows That God Does Not Exist" })
+
+MATCH (p124:Person { name: "Victor J. Stenger" })
+
+CREATE (b124)-[:AUTHOR]->(p124)
+
+MATCH (b125:Book { title: "Breaking the Spell: Religion as a Natural Phenomenon" })
+
+MATCH (p125:Person { name: "Daniel C. Dennett" })
+
+CREATE (b125)-[:AUTHOR]->(p125)
+
+MATCH (b126:Book { title: "The Bible Unearthed: Archaeology's New Vision of Ancient Israel and the Origin of Its Sacred Texts" })
+
+MATCH (p126:Person { name: "Israel Finkelstein" })
+
+CREATE (b126)-[:AUTHOR]->(p126)
+
+MATCH (b127:Book { title: "Misquoting Jesus: The Story Behind Who Changed the Bible and Why" })
+
+MATCH (p127:Person { name: "Bart D. Ehrman" })
+
+CREATE (b127)-[:AUTHOR]->(p127)
+
+MATCH (b128:Book { title: "The Problem of Pain" })
+
+MATCH (p128:Person { name: "C.S. Lewis" })
+
+CREATE (b128)-[:AUTHOR]->(p128)
+
+MATCH (b129:Book { title: "Jesus, Interrupted: Revealing the Hidden Contradictions in the Bible & Why We Don't Know About Them" })
+
+MATCH (p129:Person { name: "Bart D. Ehrman" })
+
+CREATE (b129)-[:AUTHOR]->(p129)
+
+MATCH (b130:Book { title: "Islam and the Future of Tolerance: A Dialogue" })
+
+MATCH (p130:Person { name: "Sam Harris" })
+
+CREATE (b130)-[:AUTHOR]->(p130)
+
+MATCH (b131:Book { title: "Hitch-22: A Memoir" })
+
+MATCH (p131:Person { name: "Christopher Hitchens" })
+
+CREATE (b131)-[:AUTHOR]->(p131)
+
+MATCH (b132:Book { title: "Letters to a Young Contrarian" })
+
+MATCH (p132:Person { name: "Christopher Hitchens" })
+
+CREATE (b132)-[:AUTHOR]->(p132)
+
+MATCH (b133:Book { title: "God Is Not Great: How Religion Poisons Everything" })
+
+MATCH (p133:Person { name: "Christopher Hitchens" })
+
+CREATE (b133)-[:AUTHOR]->(p133)
+
+MATCH (b134:Book { title: "Words and Rules: The Ingredients of Language" })
+
+MATCH (p134:Person { name: "Steven Pinker" })
+
+CREATE (b134)-[:AUTHOR]->(p134)
+
+MATCH (b135:Book { title: "The Stuff of Thought: Language as a Window into Human Nature" })
+
+MATCH (p135:Person { name: "Steven Pinker" })
+
+CREATE (b135)-[:AUTHOR]->(p135)
+
+MATCH (b136:Book { title: "The Better Angels of Our Nature: Why Violence Has Declined" })
+
+MATCH (p136:Person { name: "Steven Pinker" })
+
+CREATE (b136)-[:AUTHOR]->(p136)
+
+MATCH (b137:Book { title: "The Blank Slate: The Modern Denial of Human Nature" })
+
+MATCH (p137:Person { name: "Steven Pinker" })
+
+CREATE (b137)-[:AUTHOR]->(p137)
+
+MATCH (b138:Book { title: "How the Mind Works" })
+
+MATCH (p138:Person { name: "Steven Pinker" })
+
+CREATE (b138)-[:AUTHOR]->(p138)
+
+MATCH (b139:Book { title: "Essays in Existentialism" })
+
+MATCH (p139:Person { name: "Jean-Paul Sartre" })
+
+CREATE (b139)-[:AUTHOR]->(p139)
+
+MATCH (b140:Book { title: "The Stranger" })
+
+MATCH (p140:Person { name: "Albert Camus" })
+
+CREATE (b140)-[:AUTHOR]->(p140)
+
+MATCH (b141:Book { title: "The Plague" })
+
+MATCH (p141:Person { name: "Albert Camus" })
+
+CREATE (b141)-[:AUTHOR]->(p141)
+
+MATCH (b142:Book { title: "The Myth of Sisyphus and Other Essays" })
+
+MATCH (p142:Person { name: "Albert Camus" })
+
+CREATE (b142)-[:AUTHOR]->(p142)
+
+MATCH (b143:Book { title: "The Wall" })
+
+MATCH (p143:Person { name: "Jean-Paul Sartre" })
+
+CREATE (b143)-[:AUTHOR]->(p143)
+
+MATCH (b144:Book { title: "Complete Works" })
+
+MATCH (p144:Person { name: "Plato" })
+
+CREATE (b144)-[:AUTHOR]->(p144)
+
+MATCH (b145:Book { title: "Meditations" })
+
+MATCH (p145:Person { name: "Marcus Aurelius" })
+
+CREATE (b145)-[:AUTHOR]->(p145)
+
+MATCH (b146:Book { title: "Principles of Philosophy" })
+
+MATCH (p146:Person { name: "René Descartes" })
+
+CREATE (b146)-[:AUTHOR]->(p146)
+
+MATCH (b147:Book { title: "Meditations and Other Metaphysical Writings" })
+
+MATCH (p147:Person { name: "René Descartes" })
+
+CREATE (b147)-[:AUTHOR]->(p147)
+
+MATCH (b148:Book { title: "Critique of Pure Reason" })
+
+MATCH (p148:Person { name: "Immanuel Kant" })
+
+CREATE (b148)-[:AUTHOR]->(p148)
+
+MATCH (b149:Book { title: "Introduction to Logic" })
+
+MATCH (p149:Person { name: "Immanuel Kant" })
+
+CREATE (b149)-[:AUTHOR]->(p149)
+
+MATCH (b150:Book { title: "The Age of Reason" })
+
+MATCH (p150:Person { name: "Thomas Paine" })
+
+CREATE (b150)-[:AUTHOR]->(p150)
+
+MATCH (b151:Book { title: "The Will to Power" })
+
+MATCH (p151:Person { name: "Friedrich Nietzsche" })
+
+CREATE (b151)-[:AUTHOR]->(p151)
+
+MATCH (b152:Book { title: "The Signal and the Noise: Why So Many Predictions Fail - But Some Don't" })
+
+MATCH (p152:Person { name: "Nate Silver" })
+
+CREATE (b152)-[:AUTHOR]->(p152)
+
+MATCH (b153:Book { title: "The Lightness of Being: Mass, Ether, and the Unification of Forces" })
+
+MATCH (p153:Person { name: "Frank Wilczek" })
+
+CREATE (b153)-[:AUTHOR]->(p153)
+
+MATCH (b154:Book { title: "Emergence: The Connected Lives of Ants, Brains, Cities, and Software" })
+
+MATCH (p154:Person { name: "Steven Johnson" })
+
+CREATE (b154)-[:AUTHOR]->(p154)
+
+MATCH (b155:Book { title: "The Grand Design" })
+
+MATCH (p155:Person { name: "Stephen Hawking" })
+
+CREATE (b155)-[:AUTHOR]->(p155)
+
+MATCH (b156:Book { title: "The Black Swan: The Impact of the Highly Improbable" })
+
+MATCH (p156:Person { name: "Nassim Nicholas Taleb" })
+
+CREATE (b156)-[:AUTHOR]->(p156)
+
+MATCH (b157:Book { title: "The Character of Physical Law" })
+
+MATCH (p157:Person { name: "Richard Feynman" })
+
+CREATE (b157)-[:AUTHOR]->(p157)
+
+MATCH (b158:Book { title: "Six Not-So-Easy Pieces: Einstein's Relativity, Symmetry, and Space-Time" })
+
+MATCH (p158:Person { name: "Richard Feynman" })
+
+CREATE (b158)-[:AUTHOR]->(p158)
+
+MATCH (b159:Book { title: "The Quantum Universe: Everything That Can Happen Does Happen" })
+
+MATCH (p159:Person { name: "Brian Cox" })
+
+CREATE (b159)-[:AUTHOR]->(p159)
+
+MATCH (b160:Book { title: "Why Does E=mc²? (And Why Should We Care?)" })
+
+MATCH (p160:Person { name: "Brian Cox" })
+
+CREATE (b160)-[:AUTHOR]->(p160)
+
+MATCH (b161:Book { title: "Quantum Mechanics: The Theoretical Minimum (Theoretical Minimum #2)" })
+
+MATCH (p161:Person { name: "Leonard Susskind" })
+
+CREATE (b161)-[:AUTHOR]->(p161)
+
+MATCH (b162:Book { title: "Subliminal: How Your Unconscious Mind Rules Your Behavior" })
+
+MATCH (p162:Person { name: "Leonard Mlodinow" })
+
+CREATE (b162)-[:AUTHOR]->(p162)
+
+MATCH (b163:Book { title: "Comet" })
+
+MATCH (p163:Person { name: "Carl Sagan" })
+
+CREATE (b163)-[:AUTHOR]->(p163)
+
+MATCH (b164:Book { title: "Shadows of Forgotten Ancestors" })
+
+MATCH (p164:Person { name: "Carl Sagan" })
+
+CREATE (b164)-[:AUTHOR]->(p164)
+
+MATCH (b165:Book { title: "The Varieties of Scientific Experience: A Personal View of the Search for God" })
+
+MATCH (p165:Person { name: "Carl Sagan" })
+
+CREATE (b165)-[:AUTHOR]->(p165)
+
+MATCH (b166:Book { title: "Broca's Brain: Reflections on the Romance of Science" })
+
+MATCH (p166:Person { name: "Carl Sagan" })
+
+CREATE (b166)-[:AUTHOR]->(p166)
+
+MATCH (b167:Book { title: "Dragons of Eden: Speculations on the Evolution of Human Intelligence" })
+
+MATCH (p167:Person { name: "Carl Sagan" })
+
+CREATE (b167)-[:AUTHOR]->(p167)
+
+MATCH (b168:Book { title: "Pale Blue Dot: A Vision of the Human Future in Space" })
+
+MATCH (p168:Person { name: "Carl Sagan" })
+
+CREATE (b168)-[:AUTHOR]->(p168)
+
+MATCH (b169:Book { title: "The Demon-Haunted World: Science as a Candle in the Dark" })
+
+MATCH (p169:Person { name: "Carl Sagan" })
+
+CREATE (b169)-[:AUTHOR]->(p169)
+
+MATCH (b170:Book { title: "Contact" })
+
+MATCH (p170:Person { name: "Carl Sagan" })
+
+CREATE (b170)-[:AUTHOR]->(p170)
+
+MATCH (b171:Book { title: "Cosmos" })
+
+MATCH (p171:Person { name: "Carl Sagan" })
+
+CREATE (b171)-[:AUTHOR]->(p171)
+
+MATCH (b172:Book { title: "Chaos: Making a New Science" })
+
+MATCH (p172:Person { name: "James Gleick" })
+
+CREATE (b172)-[:AUTHOR]->(p172)
+
+MATCH (b173:Book { title: "The Shape of Inner Space: String Theory and the Geometry of the Universe's Hidden Dimensions" })
+
+MATCH (p173:Person { name: "Shing-Tung Yau" })
+
+CREATE (b173)-[:AUTHOR]->(p173)
+
+MATCH (b174:Book { title: "e: the Story of a Number" })
+
+MATCH (p174:Person { name: "Eli Maor" })
+
+CREATE (b174)-[:AUTHOR]->(p174)
+
+MATCH (b175:Book { title: "Unknown Quantity: A Real and Imaginary History of Algebra" })
+
+MATCH (p175:Person { name: "John Derbyshire" })
+
+CREATE (b175)-[:AUTHOR]->(p175)
+
+MATCH (b176:Book { title: "The God Particle: If the Universe Is the Answer, What Is the Question?" })
+
+MATCH (p176:Person { name: "Leon M. Lederman" })
+
+CREATE (b176)-[:AUTHOR]->(p176)
+
+MATCH (b177:Book { title: "The Black Hole War: My Battle with Stephen Hawking to Make the World Safe for Quantum Mechanics" })
+
+MATCH (p177:Person { name: "Leonard Susskind" })
+
+CREATE (b177)-[:AUTHOR]->(p177)
+
+MATCH (b178:Book { title: "Death by Black Hole: And Other Cosmic Quandaries" })
+
+MATCH (p178:Person { name: "Neil deGrasse Tyson" })
+
+CREATE (b178)-[:AUTHOR]->(p178)
+
+MATCH (b179:Book { title: "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory" })
+
+MATCH (p179:Person { name: "Brian Greene" })
+
+CREATE (b179)-[:AUTHOR]->(p179)
+
+MATCH (b180:Book { title: "A Brief History of Time" })
+
+MATCH (p180:Person { name: "Stephen Hawking" })
+
+CREATE (b180)-[:AUTHOR]->(p180)
+
+MATCH (b181:Book { title: "Symmetry: A Journey into the Patterns of Nature" })
+
+MATCH (p181:Person { name: "Marcus du Sautoy" })
+
+CREATE (b181)-[:AUTHOR]->(p181)
+
+MATCH (b182:Book { title: "Incompleteness: The Proof and Paradox of Kurt Gödel (Great Discoveries)" })
+
+MATCH (p182:Person { name: "Rebecca Goldstein" })
+
+CREATE (b182)-[:AUTHOR]->(p182)
+
+MATCH (b183:Book { title: "Prime Obsession: Bernhard Riemann and the Greatest Unsolved Problem in Mathematics" })
+
+MATCH (p183:Person { name: "John Derbyshire" })
+
+CREATE (b183)-[:AUTHOR]->(p183)
+
+MATCH (b184:Book { title: "Symmetry and the Monster: One of the Greatest Quests of Mathematics" })
+
+MATCH (p184:Person { name: "Mark Ronan" })
+
+CREATE (b184)-[:AUTHOR]->(p184)
+
+MATCH (b185:Book { title: "The Drunkard's Walk: How Randomness Rules Our Lives" })
+
+MATCH (p185:Person { name: "Leonard Mlodinow" })
+
+CREATE (b185)-[:AUTHOR]->(p185)
+
+MATCH (b186:Book { title: "Diophantus of Alexandria: A Study in the History of Greek Algebra (1910)" })
+
+MATCH (p186:Person { name: "Thomas L. Heath" })
+
+CREATE (b186)-[:AUTHOR]->(p186)
+
+MATCH (b187:Book { title: "Treatise On Conic Sections" })
+
+MATCH (p187:Person { name: "Thomas L. Heath" })
+
+CREATE (b187)-[:AUTHOR]->(p187)
+
+MATCH (b188:Book { title: "Foundations of Analysis" })
+
+MATCH (p188:Person { name: "Edmund Landau" })
+
+CREATE (b188)-[:AUTHOR]->(p188)
+
+MATCH (b189:Book { title: "Euclid's Elements" })
+
+MATCH (p189:Person { name: "Euclid" })
+
+CREATE (b189)-[:AUTHOR]->(p189)
+
+MATCH (b190:Book { title: "The Works of Archimedes" })
+
+MATCH (p190:Person { name: "Archimedes" })
+
+CREATE (b190)-[:AUTHOR]->(p190)
+
+MATCH (b191:Book { title: "The Mathematical Principles of Natural Philosophy: The Principia" })
+
+MATCH (p191:Person { name: "Isaac Newton" })
+
+CREATE (b191)-[:AUTHOR]->(p191)
+
+MATCH (b192:Book { title: "The Geometry of René Descartes: with a Facsimile of the First Edition" })
+
+MATCH (p192:Person { name: "René Descartes" })
+
+CREATE (b192)-[:AUTHOR]->(p192)
+
+MATCH (b193:Book { title: "Relativity: The Special and the General Theory" })
+
+MATCH (p193:Person { name: "Albert Einstein" })
+
+CREATE (b193)-[:AUTHOR]->(p193)
+
+MATCH (b194:Book { title: "The Annotated Turing: A Guided Tour Through Alan Turing's Historic Paper on Computability and the Turing Machine" })
+
+MATCH (p194:Person { name: "Charles Petzold" })
+
+CREATE (b194)-[:AUTHOR]->(p194)
+
+MATCH (b195:Book { title: "A Profile of Mathematical Logic" })
+
+MATCH (p195:Person { name: "Howard DeLong" })
+
+CREATE (b195)-[:AUTHOR]->(p195)
+
+MATCH (b196:Book { title: "Foundations and Fundamental Concepts of Mathematics" })
+
+MATCH (p196:Person { name: "Howard W. Eves" })
+
+CREATE (b196)-[:AUTHOR]->(p196)
+
+MATCH (b197:Book { title: "Linear Algebra" })
+
+MATCH (p197:Person { name: "Georgi E. Shilov" })
+
+CREATE (b197)-[:AUTHOR]->(p197)
+
+MATCH (b198:Book { title: "Algebras of Holomorphic Functions and Control Theory" })
+
+MATCH (p198:Person { name: "Amol Sasane" })
+
+CREATE (b198)-[:AUTHOR]->(p198)
+
+MATCH (b199:Book { title: "Introduction to Topology" })
+
+MATCH (p199:Person { name: "Bert Mendelson" })
+
+CREATE (b199)-[:AUTHOR]->(p199)
+
+MATCH (b200:Book { title: "Elementary Matrix Theory" })
+
+MATCH (p200:Person { name: "Howard Eves" })
+
+CREATE (b200)-[:AUTHOR]->(p200)
+
+MATCH (b201:Book { title: "Ordinary Differential Equations" })
+
+MATCH (p201:Person { name: "Morris Tenenbaum" })
+
+CREATE (b201)-[:AUTHOR]->(p201)
+
+MATCH (b202:Book { title: "Differential Games: A Mathematical Theory with Applications to Warfare and Pursuit, Control and Optimization" })
+
+MATCH (p202:Person { name: "Rufus Isaacs" })
+
+CREATE (b202)-[:AUTHOR]->(p202)
+
+MATCH (b203:Book { title: "Geometry, Relativity and the Fourth Dimension" })
+
+MATCH (p203:Person { name: "Rudy Rucker" })
+
+CREATE (b203)-[:AUTHOR]->(p203)
+
+MATCH (b204:Book { title: "Number Theory" })
+
+MATCH (p204:Person { name: "George E. Andrews" })
+
+CREATE (b204)-[:AUTHOR]->(p204)
+
+MATCH (b205:Book { title: "Introduction to Probability" })
+
+MATCH (p205:Person { name: "John E. Freund" })
+
+CREATE (b205)-[:AUTHOR]->(p205)
+
+MATCH (b206:Book { title: "New Directions in Hopf Algebras" })
+
+MATCH (p206:Person { name: "Susan Montgomery" })
+
+CREATE (b206)-[:AUTHOR]->(p206)
+
+MATCH (b207:Book { title: "How to Prove It: A Structured Approach" })
+
+MATCH (p207:Person { name: "Daniel J. Velleman" })
+
+CREATE (b207)-[:AUTHOR]->(p207)
+
+MATCH (b208:Book { title: "Elementary Real and Complex Analysis" })
+
+MATCH (p208:Person { name: "Georgi E. Shilov" })
+
+CREATE (b208)-[:AUTHOR]->(p208)
+
+MATCH (b209:Book { title: "Riemann's Zeta Function" })
+
+MATCH (p209:Person { name: "Harold M. Edwards" })
+
+CREATE (b209)-[:AUTHOR]->(p209)
+
+MATCH (b210:Book { title: "A Book of Abstract Algebra" })
+
+MATCH (p210:Person { name: "Charles C. Pinter" })
+
+CREATE (b210)-[:AUTHOR]->(p210)
+
+MATCH (b211:Book { title: "Calculus: An Intuitive and Physical Approach" })
+
+MATCH (p211:Person { name: "Morris Kline" })
+
+CREATE (b211)-[:AUTHOR]->(p211)
+
+MATCH (b212:Book { title: "Applied Combinatorics" })
+
+MATCH (p212:Person { name: "Alan Tucker" })
+
+CREATE (b212)-[:AUTHOR]->(p212)
+
+MATCH (b213:Book { title: "Elliptic Partial Differential Equations and Quasiconformal Mappings in the Plane" })
+
+MATCH (p213:Person { name: "Kari Astala" })
+
+CREATE (b213)-[:AUTHOR]->(p213)
+
+MATCH (b214:Book { title: "The Princeton Companion to Mathematics" })
+
+MATCH (p214:Person { name: "Timothy Gowers" })
+
+CREATE (b214)-[:AUTHOR]->(p214)
+
+MATCH (b215:Book { title: "A New Kind of Science" })
+
+MATCH (p215:Person { name: "Stephen Wolfram" })
+
+CREATE (b215)-[:AUTHOR]->(p215)
+
+MATCH (b216:Book { title: "Abel's Proof: An Essay on the Sources and Meaning of Mathematical Unsolvability" })
+
+MATCH (p216:Person { name: "Peter Pesic" })
+
+CREATE (b216)-[:AUTHOR]->(p216)
+
+MATCH (b217:Book { title: "A Book of Set Theory (Dover Books on Mathematics)" })
+
+MATCH (p217:Person { name: "Charles C. Pinter" })
+
+CREATE (b217)-[:AUTHOR]->(p217)
+
+MATCH (b218:Book { title: "Our Mathematical Universe: My Quest for the Ultimate Nature of Reality" })
+
+MATCH (p218:Person { name: "Max Tegmark" })
+
+CREATE (b218)-[:AUTHOR]->(p218)
+
+MATCH (b219:Book { title: "Applied Abstract Algebra" })
+
+MATCH (p219:Person { name: "David Joyner" })
+
+CREATE (b219)-[:AUTHOR]->(p219)
+
+MATCH (b220:Book { title: "What If?: Serious Scientific Answers to Absurd Hypothetical Questions" })
+
+MATCH (p220:Person { name: "Randall Munroe" })
+
+CREATE (b220)-[:AUTHOR]->(p220)
+
+MATCH (b221:Book { title: "Introduction to Linear Algebra" })
+
+MATCH (p221:Person { name: "Lee W. Johnson" })
+
+CREATE (b221)-[:AUTHOR]->(p221)
+
+MATCH (b222:Book { title: "Crime and Punishment" })
+
+MATCH (p222:Person { name: "Fyodor Dostoyevsky" })
+
+CREATE (b222)-[:AUTHOR]->(p222)
+
+MATCH (b223:Book { title: "The Idiot" })
+
+MATCH (p223:Person { name: "Fyodor Dostoyevsky" })
+
+CREATE (b223)-[:AUTHOR]->(p223)
+
+MATCH (b224:Book { title: "The Brothers Karamazov" })
+
+MATCH (p224:Person { name: "Fyodor Dostoyevsky" })
+
+CREATE (b224)-[:AUTHOR]->(p224)
+
+MATCH (b225:Book { title: "The Possessed" })
+
+MATCH (p225:Person { name: "Fyodor Dostoyevsky" })
+
+CREATE (b225)-[:AUTHOR]->(p225)
+
+MATCH (b226:Book { title: "$30 Music School [With CD]" })
+
+MATCH (p226:Person { name: "Michael W. Dean" })
+
+CREATE (b226)-[:AUTHOR]->(p226)
+
+MATCH (b227:Book { title: "Although of Course You End Up Becoming Yourself: A Road Trip with David Foster Wallace" })
+
+MATCH (p227:Person { name: "David Lipsky" })
+
+CREATE (b227)-[:AUTHOR]->(p227)
+
+MATCH (b228:Book { title: "Awaken the Giant Within: How to Take Immediate Control of Your Mental, Emotional, Physical and Financial Destiny!" })
+
+MATCH (p228:Person { name: "Anthony Robbins" })
+
+CREATE (b228)-[:AUTHOR]->(p228)
+
+MATCH (b229:Book { title: "Signifying Rappers: Rap and Race in the Urban Present" })
+
+MATCH (p229:Person { name: "David Foster Wallace" })
+
+CREATE (b229)-[:AUTHOR]->(p229)
+
+MATCH (b230:Book { title: "Poetry, Language, Thought" })
+
+MATCH (p230:Person { name: "Martin Heidegger" })
+
+CREATE (b230)-[:AUTHOR]->(p230)
+
+MATCH (b231:Book { title: "How to Win Friends and Influence People" })
+
+MATCH (p231:Person { name: "Dale Carnegie" })
+
+CREATE (b231)-[:AUTHOR]->(p231)
+
+MATCH (b232:Book { title: "The I Ching or Book of Changes" })
+
+MATCH (p232:Person { name: "Anonymous" })
+
+CREATE (b232)-[:AUTHOR]->(p232)
+
+MATCH (b233:Book { title: "The Sparkfun Guide to Processing: Create Interactive Art with Code" })
+
+MATCH (p233:Person { name: "Derek Runberg" })
+
+CREATE (b233)-[:AUTHOR]->(p233)
+
+MATCH (b234:Book { title: "Music, Physics and Engineering" })
+
+MATCH (p234:Person { name: "Harry F. Olson" })
+
+CREATE (b234)-[:AUTHOR]->(p234)
+
+MATCH (b235:Book { title: "The Road to Wigan Pier" })
+
+MATCH (p235:Person { name: "George Orwell" })
+
+CREATE (b235)-[:AUTHOR]->(p235)
+
+MATCH (b236:Book { title: "Man's Search for Ultimate Meaning" })
+
+MATCH (p236:Person { name: "Viktor E. Frankl" })
+
+CREATE (b236)-[:AUTHOR]->(p236)
+
+MATCH (b237:Book { title: "Man's Search for Meaning" })
+
+MATCH (p237:Person { name: "Viktor E. Frankl" })
+
+CREATE (b237)-[:AUTHOR]->(p237)
+
+MATCH (b238:Book { title: "Modern Man in Search of a Soul" })
+
+MATCH (p238:Person { name: "C.G. Jung" })
+
+CREATE (b238)-[:AUTHOR]->(p238)
+
+MATCH (b239:Book { title: "On Becoming a Person: A Therapist's View of Psychotherapy" })
+
+MATCH (p239:Person { name: "Carl R. Rogers" })
+
+CREATE (b239)-[:AUTHOR]->(p239)
+
+MATCH (b240:Book { title: "A Way of Being" })
+
+MATCH (p240:Person { name: "Carl R. Rogers" })
+
+CREATE (b240)-[:AUTHOR]->(p240)
+
+MATCH (b241:Book { title: "The Organized Mind: Thinking Straight in the Age of Information Overload" })
+
+MATCH (p241:Person { name: "Daniel J. Levitin" })
+
+CREATE (b241)-[:AUTHOR]->(p241)
+
+MATCH (b242:Book { title: "The Conscious Mind: In Search of a Fundamental Theory " })
+
+MATCH (p242:Person { name: "David J. Chalmers" })
+
+CREATE (b242)-[:AUTHOR]->(p242)
+
+MATCH (b243:Book { title: "Mathematics: Queen and Servant of Science" })
+
+MATCH (p243:Person { name: "Eric Temple Bell" })
+
+CREATE (b243)-[:AUTHOR]->(p243)
+
+MATCH (b244:Book { title: "Superintelligence: Paths, Dangers, Strategies" })
+
+MATCH (p244:Person { name: "Nick Bostrom" })
+
+CREATE (b244)-[:AUTHOR]->(p244)
+
+MATCH (b245:Book { title: "The Righteous Mind: Why Good People are Divided by Politics and Religion" })
+
+MATCH (p245:Person { name: "Jonathan Haidt" })
+
+CREATE (b245)-[:AUTHOR]->(p245)
+
+MATCH (b246:Book { title: "The Message of the Sphinx: A Quest for the Hidden Legacy of Mankind" })
+
+MATCH (p246:Person { name: "Graham Hancock" })
+
+CREATE (b246)-[:AUTHOR]->(p246)
+
+MATCH (b247:Book { title: "Underworld: The Mysterious Origins of Civilization" })
+
+MATCH (p247:Person { name: "Graham Hancock" })
+
+CREATE (b247)-[:AUTHOR]->(p247)
+
+MATCH (b248:Book { title: "A Beautiful Question: Finding Nature's Deep Design" })
+
+MATCH (p248:Person { name: "Frank Wilczek" })
+
+CREATE (b248)-[:AUTHOR]->(p248)
+
+MATCH (b249:Book { title: "Pauli and Jung: The Meeting of Two Great Minds" })
+
+MATCH (p249:Person { name: "David Lindorff" })
+
+CREATE (b249)-[:AUTHOR]->(p249)
+
+MATCH (b250:Book { title: "Euclid's Window: The Story of Geometry from Parallel Lines to Hyperspace" })
+
+MATCH (p250:Person { name: "Leonard Mlodinow" })
+
+CREATE (b250)-[:AUTHOR]->(p250)
+
+MATCH (b251:Book { title: "Art and Physics: Parallel Visions in Space, Time, and Light" })
+
+MATCH (p251:Person { name: "Leonard Shlain" })
+
+CREATE (b251)-[:AUTHOR]->(p251)
+
+MATCH (b252:Book { title: "Power vs. Force" })
+
+MATCH (p252:Person { name: "David R. Hawkins" })
+
+CREATE (b252)-[:AUTHOR]->(p252)
+
+MATCH (b253:Book { title: "The Lucifer Principle: A Scientific Expedition into the Forces of History" })
+
+MATCH (p253:Person { name: "Howard Bloom" })
+
+CREATE (b253)-[:AUTHOR]->(p253)
+
+MATCH (b254:Book { title: "Geometry of Desert" })
+
+MATCH (p254:Person { name: "Shelly Kagan" })
+
+CREATE (b254)-[:AUTHOR]->(p254)
+
+MATCH (b255:Book { title: "The Fall of Troy" })
+
+MATCH (p255:Person { name: "Quintus Smyrnaeus" })
+
+CREATE (b255)-[:AUTHOR]->(p255)
+
+MATCH (b256:Book { title: "The Classical World: An Epic History from Homer to Hadrian" })
+
+MATCH (p256:Person { name: "Robin Lane Fox" })
+
+CREATE (b256)-[:AUTHOR]->(p256)
+
+MATCH (b257:Book { title: "Constantine's Sword: The Church and the Jews, A History" })
+
+MATCH (p257:Person { name: "James Carroll" })
+
+CREATE (b257)-[:AUTHOR]->(p257)
+
+MATCH (b258:Book { title: "Frog Music" })
+
+MATCH (p258:Person { name: "Emma Donoghue" })
+
+CREATE (b258)-[:AUTHOR]->(p258)
+
+MATCH (b259:Book { title: "The Swerve: How the World Became Modern" })
+
+MATCH (p259:Person { name: "Stephen Greenblatt" })
+
+CREATE (b259)-[:AUTHOR]->(p259)
+
+MATCH (b260:Book { title: "The Transformation of Virginia, 1740-1790" })
+
+MATCH (p260:Person { name: "Rhys Isaac" })
+
+CREATE (b260)-[:AUTHOR]->(p260)
+
+MATCH (b261:Book { title: "Humanity: A Moral History of the Twentieth Century" })
+
+MATCH (p261:Person { name: "Jonathan Glover" })
+
+CREATE (b261)-[:AUTHOR]->(p261)
+
+MATCH (b262:Book { title: "The Philosophy of History" })
+
+MATCH (p262:Person { name: "Georg Wilhelm Friedrich Hegel" })
+
+CREATE (b262)-[:AUTHOR]->(p262)
+
+MATCH (b263:Book { title: "1984" })
+
+MATCH (p263:Person { name: "George Orwell" })
+
+CREATE (b263)-[:AUTHOR]->(p263)
+
+MATCH (b264:Book { title: "Plutarch's Lives, Vol 2" })
+
+MATCH (p264:Person { name: "Plutarch" })
+
+CREATE (b264)-[:AUTHOR]->(p264)
+
+MATCH (b265:Book { title: "Plutarch's Lives, Vol 1" })
+
+MATCH (p265:Person { name: "Plutarch" })
+
+CREATE (b265)-[:AUTHOR]->(p265)
+
+MATCH (b266:Book { title: "The Rise and Fall of Athens: Nine Greek Lives" })
+
+MATCH (p266:Person { name: "Plutarch" })
+
+CREATE (b266)-[:AUTHOR]->(p266)
+
+MATCH (b267:Book { title: "Design Patterns: Elements of Reusable Object-Oriented Software" })
+
+MATCH (p267:Person { name: "Erich Gamma" })
+
+CREATE (b267)-[:AUTHOR]->(p267)
+
+MATCH (b268:Book { title: "Learn You a Haskell for Great Good!" })
+
+MATCH (p268:Person { name: "Miran Lipovača" })
+
+CREATE (b268)-[:AUTHOR]->(p268)
+
+MATCH (b269:Book { title: "The Mythical Man-Month: Essays on Software Engineering" })
+
+MATCH (p269:Person { name: "Frederick P. Brooks Jr." })
+
+CREATE (b269)-[:AUTHOR]->(p269)
+
+MATCH (b270:Book { title: "Structure and Interpretation of Computer Programs (MIT Electrical Engineering and Computer Science)" })
+
+MATCH (p270:Person { name: "Harold Abelson" })
+
+CREATE (b270)-[:AUTHOR]->(p270)
+
+MATCH (b271:Book { title: "Practical Object Oriented Design in Ruby" })
+
+MATCH (p271:Person { name: "Sandi Metz" })
+
+CREATE (b271)-[:AUTHOR]->(p271)
+
+MATCH (b272:Book { title: "The Timeless Way of Building" })
+
+MATCH (p272:Person { name: "Christopher W. Alexander" })
+
+CREATE (b272)-[:AUTHOR]->(p272)
+
+MATCH (b273:Book { title: "Brave New World Revisited " })
+
+MATCH (p273:Person { name: "Aldous Huxley" })
+
+CREATE (b273)-[:AUTHOR]->(p273)
+
+MATCH (b274:Book { title: "Tao Te Ching" })
+
+MATCH (p274:Person { name: "Lao Tzu" })
+
+CREATE (b274)-[:AUTHOR]->(p274)
+
+MATCH (b275:Book { title: "The Emperor's New Mind Concerning Computers, Minds and the Laws of Physics" })
+
+MATCH (p275:Person { name: "Roger Penrose" })
+
+CREATE (b275)-[:AUTHOR]->(p275)
+
+MATCH (b276:Book { title: "The Golden Bough" })
+
+MATCH (p276:Person { name: "James George Frazer" })
+
+CREATE (b276)-[:AUTHOR]->(p276)
+
+MATCH (b277:Book { title: "Free Will" })
+
+MATCH (p277:Person { name: "Sam Harris" })
+
+CREATE (b277)-[:AUTHOR]->(p277)
+
+MATCH (b278:Book { title: "Synchronicity: An Acausal Connecting Principle" })
+
+MATCH (p278:Person { name: "C.G. Jung" })
+
+CREATE (b278)-[:AUTHOR]->(p278)
+
+MATCH (b279:Book { title: "Working Effectively with Legacy Code" })
+
+MATCH (p279:Person { name: "Michael C. Feathers" })
+
+CREATE (b279)-[:AUTHOR]->(p279)
+
+MATCH (b280:Book { title: "Big Bang: The Origin of the Universe" })
+
+MATCH (p280:Person { name: "Simon Singh" })
+
+CREATE (b280)-[:AUTHOR]->(p280)
+
+MATCH (b281:Book { title: "The Code Book: The Science of Secrecy from Ancient Egypt to Quantum Cryptography" })
+
+MATCH (p281:Person { name: "Simon Singh" })
+
+CREATE (b281)-[:AUTHOR]->(p281)
+
+MATCH (b282:Book { title: "Turing's Cathedral: The Origins of the Digital Universe" })
+
+MATCH (p282:Person { name: "George Dyson" })
+
+CREATE (b282)-[:AUTHOR]->(p282)
+
+MATCH (b283:Book { title: "Code Complete" })
+
+MATCH (p283:Person { name: "Steve McConnell" })
+
+CREATE (b283)-[:AUTHOR]->(p283)
+
+MATCH (b284:Book { title: "Seven Databases in Seven Weeks: A Guide to Modern Databases and the NoSQL Movement" })
+
+MATCH (p284:Person { name: "Eric  Redmond" })
+
+CREATE (b284)-[:AUTHOR]->(p284)
+
+MATCH (b285:Book { title: "The Pragmatic Programmer: From Journeyman to Master" })
+
+MATCH (p285:Person { name: "Andrew Hunt" })
+
+CREATE (b285)-[:AUTHOR]->(p285)
+
+MATCH (b286:Book { title: "Joel on Software" })
+
+MATCH (p286:Person { name: "Joel Spolsky" })
+
+CREATE (b286)-[:AUTHOR]->(p286)
+
+MATCH (b287:Book { title: "Compilers: Principles, Techniques, and Tools" })
+
+MATCH (p287:Person { name: "Alfred V. Aho" })
+
+CREATE (b287)-[:AUTHOR]->(p287)
+
+MATCH (b288:Book { title: "Metamagical Themas: Questing for the Essence of Mind and Pattern" })
+
+MATCH (p288:Person { name: "Douglas R. Hofstadter" })
+
+CREATE (b288)-[:AUTHOR]->(p288)
+
+MATCH (b289:Book { title: "The Mind's I: Fantasies and Reflections on Self and Soul" })
+
+MATCH (p289:Person { name: "Douglas R. Hofstadter" })
+
+CREATE (b289)-[:AUTHOR]->(p289)
+
+MATCH (b290:Book { title: "Fluid Concepts and Creative Analogies" })
+
+MATCH (p290:Person { name: "Douglas R. Hofstadter" })
+
+CREATE (b290)-[:AUTHOR]->(p290)
+
+MATCH (b291:Book { title: "Surfaces and Essences: Analogy as the Fuel and Fire of Thinking" })
+
+MATCH (p291:Person { name: "Douglas R. Hofstadter" })
+
+CREATE (b291)-[:AUTHOR]->(p291)
+
+MATCH (b292:Book { title: "Turtle Geometry: The Computer as a Medium for Exploring Mathematics" })
+
+MATCH (p292:Person { name: "Harold Abelson" })
+
+CREATE (b292)-[:AUTHOR]->(p292)
+
+MATCH (b293:Book { title: "Masterminds of Programming: Conversations with the Creators of Major Programming Languages" })
+
+MATCH (p293:Person { name: "Federico Biancuzzi" })
+
+CREATE (b293)-[:AUTHOR]->(p293)
+
+MATCH (b294:Book { title: "Introduction to the Theory of Computation" })
+
+MATCH (p294:Person { name: "Michael Sipser" })
+
+CREATE (b294)-[:AUTHOR]->(p294)
+
+MATCH (b295:Book { title: "Land of LISP: Learn to Program in LISP, One Game at a Time!" })
+
+MATCH (p295:Person { name: "Conrad Barski" })
+
+CREATE (b295)-[:AUTHOR]->(p295)
+
+MATCH (b296:Book { title: "An Interdisciplinary Introduction to Image Processing: Pixels, Numbers, and Programs" })
+
+MATCH (p296:Person { name: "Steven L. Tanimoto" })
+
+CREATE (b296)-[:AUTHOR]->(p296)
+
+MATCH (b297:Book { title: "Fermat's Enigma: The Epic Quest to Solve the World's Greatest Mathematical Problem" })
+
+MATCH (p297:Person { name: "Simon Singh" })
+
+CREATE (b297)-[:AUTHOR]->(p297)
+
+MATCH (b298:Book { title: "Gödel, Escher, Bach: An Eternal Golden Braid" })
+
+MATCH (p298:Person { name: "Douglas R. Hofstadter" })
+
+CREATE (b298)-[:AUTHOR]->(p298)
+
+MATCH (b299:Book { title: "Gödel's Proof" })
+
+MATCH (p299:Person { name: "Ernest Nagel" })
+
+CREATE (b299)-[:AUTHOR]->(p299)
+
+MATCH (b300:Book { title: "I Am a Strange Loop" })
+
+MATCH (p300:Person { name: "Douglas R. Hofstadter" })
+
+CREATE (b300)-[:AUTHOR]->(p300)
+
