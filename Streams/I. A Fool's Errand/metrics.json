@@ -4,7 +4,12 @@
     "weight": 236,
     "piano practice": {
       "piece": "Le Matin",
-      "observations": "Self conscious of the camera, a little bit distracted by the lecture, a few mistakes, but not too shabby overall"
+      "observations": [
+        "Self conscious of the camera",
+        "a little bit distracted by the lecture",
+        "a few mistakes",
+        "but not too shabby overall"
+      ]
     }
   }
 }
